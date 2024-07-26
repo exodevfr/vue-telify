@@ -1,0 +1,67 @@
+{
+  "name": "vue-telify",
+  "version": "1.0.0",
+  "description": "A Vue.js component library for phone number input and validation with support for country specific formatting and Vuetify, Bootstrap, and Tailwind CSS.",
+  "type": "module",
+  "main": "dist/vue-telify.umd.js",
+  "module": "dist/vue-telify.es.js",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "preview": "vite preview",
+    "build": "vite build && tsc",
+    "build:types": "rollup -c rollup.config.mjs",
+    "build:vuetsc": "vue-tsc --declaration --emitDeclarationOnly --outDir dist/types",
+    "watch:types": "chokidar 'src/**/*.ts' -c 'npm run build:types' --verbose",
+    "build:all": "npm run build && npm run build:types",
+    "clean": "node clean.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/exodevfr/vue-telify.git"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "phone",
+    "input",
+    "validation",
+    "vuetify",
+    "bootstrap",
+    "tailwind"
+  ],
+  "author": "Cindy RAOUX (Codindy) | EXO-DEV",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://",
+    "homepage": ""
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "bootstrap": "^5.3.3",
+    "flag-icons": "^7.2.3",
+    "tailwindcss": "^3.4.6",
+    "vite-plugin-vuetify": "^2.0.3",
+    "vue": "^3.4.33",
+    "vue-i18n": "^9.13.1",
+    "vuetify": "^3.6.13"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0",
+    "vue-i18": "^9.0.0",
+    "vuetify": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.12",
+    "@vitejs/plugin-vue": "^5.1.0",
+    "chokidar-cli": "^3.0.0",
+    "rollup-plugin-dts": "^6.1.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4",
+    "vite": "^5.3.5",
+    "vue-tsc": "^2.0.29"
+  }
+}

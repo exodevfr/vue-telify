@@ -1,0 +1,34 @@
+{
+  "errors": {
+    "invalid_phone_number": "Numéro de téléphone invalide"
+  },
+  "countries": {
+    "germany": "Allemagne",
+    "austria": "Autriche",
+    "belgium": "Belgique",
+    "bulgaria": "Bulgarie",
+    "cyprus": "Chypre",
+    "croatia": "Croatie",
+    "denmark": "Danemark",
+    "spain": "Espagne",
+    "estonia": "Estonie",
+    "finland": "Finlande",
+    "france": "France",
+    "greece": "Grèce",
+    "hungary": "Hongrie",
+    "ireland": "Irlande",
+    "italy": "Italie",
+    "latvia": "Lettonie",
+    "lithuania": "Lituanie",
+    "luxembourg": "Luxembourg",
+    "malta": "Malte",
+    "netherlands": "Pays-Bas",
+    "poland": "Pologne",
+    "portugal": "Portugal",
+    "czech_republic": "République tchèque",
+    "romania": "Roumanie",
+    "slovakia": "Slovaquie",
+    "slovenia": "Slovénie",
+    "sweden": "Suède"
+  }
+}
