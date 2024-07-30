@@ -22,7 +22,7 @@ export default defineConfig({
     port: 6983,
   },
   optimizeDeps: {
-    include: ['vue', 'vuetify', 'bootstrap', 'tailwindcss']
+    include: ['vue', 'vuetify']
   },
   build: {
     outDir: 'dist',
@@ -32,17 +32,5 @@ export default defineConfig({
       fileName: (format) => `vue-telify.${format}.js`,
       formats: ['es', 'umd']
     },
-    // rollupOptions: {
-    //   input: path.resolve(__dirname, 'src/index.ts'),
-    //   external: ['vue'],
-    //   output: {
-    //     globals: {
-    //       vue: 'Vue'
-    //     }
-    //   }
-    // },
-    // commonjsOptions: {
-    //   include: "/nodes_modules/"
-    // }
   }
 })
